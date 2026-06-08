@@ -15,6 +15,8 @@ ignorePublish: false
 ---
 ## はじめに
 
+https://youtu.be/tgTRH8Ai-Y8
+
 Webアプリケーションをリリースする前に「本番環境で何人のユーザーに耐えられるか」を把握しておきたい場面は多いです。しかし、大規模な負荷テストを自前で構築するのは、サーバーの準備やツールの設定など手間がかかります。
 
 **AWS Distributed Load Testing on AWS（DLT）** は、CloudFormationテンプレート一発でデプロイでき、Webコンソールから簡単に数千〜数万の同時接続をシミュレートできるAWSソリューションです。
