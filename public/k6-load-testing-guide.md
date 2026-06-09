@@ -3,12 +3,12 @@ title: 【コピペOK】k6で負荷テスト - すぐ使えるスクリプト集
 tags:
   - JavaScript
   - 負荷テスト
-  - k6
   - performance
   - コピペ
+  - k6
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-09T22:48:13+09:00'
+id: 9db39b938712182ed613
 organization_url_name: null
 slide: false
 ignorePublish: false
