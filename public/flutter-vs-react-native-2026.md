@@ -1,14 +1,14 @@
 ---
 title: 【2026年版】Flutter vs React Native 技術比較ガイド
 tags:
-  - Flutter
-  - ReactNative
   - Dart
-  - モバイルアプリ開発
   - クロスプラットフォーム
+  - reactnative
+  - Flutter
+  - モバイルアプリ開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-13T12:16:14+09:00'
+id: 8c882b485bfcc6debd06
 organization_url_name: null
 slide: false
 ignorePublish: false
