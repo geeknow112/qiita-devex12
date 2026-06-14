@@ -3,12 +3,12 @@ title: 【実践】Go + Cobraで業務自動化CLIツールを作る - 設計か
 tags:
   - Go
   - CLI
-  - cobra
-  - 自動化
   - 効率化
+  - 自動化
+  - cobra
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-14T20:22:45+09:00'
+id: 77b49db5b37f09514cf7
 organization_url_name: null
 slide: false
 ignorePublish: false
