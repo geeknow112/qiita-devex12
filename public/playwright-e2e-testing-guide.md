@@ -2,13 +2,13 @@
 title: Playwright導入で地獄を見た話 - 本番運用までに踏んだ罠と解決策
 tags:
   - JavaScript
-  - TypeScript
   - テスト
-  - E2E
+  - TypeScript
+  - e2e
   - Playwright
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-15T20:27:57+09:00'
+id: 6217b233b08a18425cab
 organization_url_name: null
 slide: false
 ignorePublish: false
