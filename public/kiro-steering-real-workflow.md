@@ -38,19 +38,17 @@ https://kiro.dev
 
 ## Before：何が問題だったか
 
-毎日、Zenn/Qiita/note/WordPressに記事を投稿している。
-
-Kiroに「メディア更新して」と言うと、こうなる：
+Kiroに「作業を進めて」と言うと、こうなる：
 
 ```
-私：メディア更新して
+私：作業を進めて
+Kiro：どの作業ですか？
+私：記事投稿
 Kiro：どのプラットフォームですか？
 私：Zenn
-Kiro：リポジトリはzenn-contentとzenn-devex12のどちらですか？
+Kiro：どのリポジトリですか？
 私：zenn-devex12
 Kiro：何を更新しますか？新規記事？既存記事の修正？
-私：新規
-Kiro：どんなテーマで書きますか？
 ```
 
 **毎回これ。**
