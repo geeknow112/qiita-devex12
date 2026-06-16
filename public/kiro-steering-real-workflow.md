@@ -47,7 +47,7 @@ Kiro：どの作業ですか？
 Kiro：どのプラットフォームですか？
 私：Zenn
 Kiro：どのリポジトリですか？
-私：zenn-devex12
+私：zenn-content
 Kiro：何を更新しますか？新規記事？既存記事の修正？
 ```
 
