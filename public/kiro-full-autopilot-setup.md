@@ -1,14 +1,14 @@
 ---
-title: '【コピペOK】Kiroを「完全オート」で動かす設定ファイル集'
+title: 【コピペOK】Kiroを「完全オート」で動かす設定ファイル集
 tags:
-  - AI
-  - Kiro
   - 自動化
+  - AI
   - VSCode
   - 開発効率化
+  - Kiro
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-20T15:23:25+09:00'
+id: 3cb6df52d1b3ce963756
 organization_url_name: null
 slide: false
 ignorePublish: false
