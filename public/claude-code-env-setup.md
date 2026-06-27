@@ -1,14 +1,14 @@
 ---
 title: 【Claude Code】IDEなしで快適に！CLI作業環境おすすめ設定まとめ
 tags:
-  - ClaudeCode
-  - Claude
-  - AI
   - 開発環境
   - CLI
+  - AI
+  - Claude
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-28T00:34:33+09:00'
+id: 8f8d2238d3600f0413c9
 organization_url_name: null
 slide: false
 ignorePublish: false
