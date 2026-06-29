@@ -1,14 +1,14 @@
 ---
 title: 【Kiro IDE】マウス不要！キーボードショートカット完全ガイド
 tags:
-  - Kiro
+  - ショートカット
   - IDE
   - VSCode
-  - ショートカット
   - 開発効率化
+  - Kiro
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-29T22:47:48+09:00'
+id: fb1314260dedad30c665
 organization_url_name: null
 slide: false
 ignorePublish: false
