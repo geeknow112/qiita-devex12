@@ -29,7 +29,7 @@ Webサイトを運営していると、セキュリティ面で見落としが�
 ## 完成イメージ
 
 ```bash
-$ biz-tools scan https://example.com
+$ security-scan https://example.com
 
 === セキュリティ診断結果 ===
 対象URL: https://example.com
@@ -222,16 +222,16 @@ func checkDNS(url string) DNSResult {
 
 ```bash
 # テキスト（デフォルト）
-biz-tools scan https://example.com
+security-scan https://example.com
 
 # Markdown
-biz-tools scan https://example.com -o markdown -f report.md
+security-scan https://example.com -o markdown -f report.md
 
 # JSON
-biz-tools scan https://example.com -o json
+security-scan https://example.com -o json
 
 # HTML（CSS付きレポート）
-biz-tools scan https://example.com -o html -f report.html
+security-scan https://example.com -o html -f report.html
 ```
 
 ## 使用ライブラリ
@@ -250,14 +250,6 @@ biz-tools scan https://example.com -o html -f report.html
 ## まとめ
 
 Go標準ライブラリだけで、実用的なセキュリティ簡易診断ツールを作れます。
-
-- SSL証明書の期限監視
-- セキュリティヘッダーの設定確認
-- 自社サイトの定期チェック
-
-などに活用できます。
-
-**GitHub**: https://github.com/geeknow112/biz-tools
 
 ## 参考
 
