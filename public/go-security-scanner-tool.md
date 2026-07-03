@@ -62,6 +62,8 @@ $ security-scan https://example.com
 
 ### 1. SSL証明書チェック
 
+`context` と `net.Dialer` を組み合わせることで、タイムアウト制御をより厳密に行えます。
+
 ```go
 func checkSSL(url string) SSLResult {
     result := SSLResult{Risk: "Info"}
@@ -73,8 +75,26 @@ func checkSSL(url string) SSLResult {
     }
     
     host := getHost(url)
-    conn, err := tls.Dial("tcp", host+":443", &tls.Config{})
+    
+    // contextとnet.Dialerで適切なタイムアウト制御
+    ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+    defer cancel()
+    
+    dialer := &net.Dialer{}
+    netConn, err := dialer.DialContext(ctx, "tcp", host+":443")
     if err != nil {
+        result.Enabled = false
+        result.Risk = "Critical"
+        return result
+    }
+    
+    conn := tls.Client(netConn, &tls.Config{
+        ServerName: host,
+    })
+    conn.SetDeadline(time.Now().Add(10 * time.Second))
+    
+    if err = conn.Handshake(); err != nil {
+        conn.Close()
         result.Enabled = false
         result.Risk = "Critical"
         return result
@@ -147,6 +167,8 @@ func checkHeaders(url string) HeadersResult {
 ```
 
 ### 3. CMS検出
+
+> **注意**: このCMS検出は簡易的なヒューリスティクスに基づいており、確実ではありません。CMS運営者がパスをカスタマイズしている場合、検出できないことがあります。
 
 ```go
 func detectCMS(url string) CMSResult {
@@ -237,9 +259,11 @@ security-scan https://example.com -o html -f report.html
 ## 使用ライブラリ
 
 - **cobra**: CLIフレームワーク
-- 標準ライブラリ: `crypto/tls`, `net/http`, `net`, `encoding/json`
+- 標準ライブラリ: `context`, `crypto/tls`, `net/http`, `net`, `encoding/json`
 
 外部依存を最小限に抑えています。
+
+**補足**: Severityの値（Critical, High, Medium, Low, Info）は定数として定義しておくと、型安全性が高まります。
 
 ## 注意事項
 
