@@ -1,17 +1,19 @@
 ---
 title: 【HHKB】挫折しない！1週間で慣れるための完全実践ガイド｜初心者がハマるポイントと解決法
 tags:
-  - HHKB
-  - キーボード
-  - 初心者
-  - 入門
   - 開発環境
+  - 初心者
+  - Keyboard
+  - 入門
+  - HHKB
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-11T00:33:11+09:00'
+id: d84027c4d632f29b352a
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## はじめに
