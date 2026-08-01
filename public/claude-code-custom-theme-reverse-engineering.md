@@ -6,7 +6,7 @@ tags:
   - ReverseEngineering
   - CLI
   - TypeScript
-private: true
+private: false
 updated_at: '2026-08-02T01:33:35+09:00'
 id: 6d5dab6ec0613afa0c43
 organization_url_name: null
