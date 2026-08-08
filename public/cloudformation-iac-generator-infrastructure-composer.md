@@ -116,4 +116,3 @@ Get-Content -Raw <file> | Set-Clipboard
 - [AWS CloudFormation ユーザーガイド - 既存リソースからのIaC生成](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html)
 - [Infrastructure Composer ドキュメント](https://docs.aws.amazon.com/infrastructure-composer/latest/dg/what-is-composer.html)
 
-※本記事は2026年8月時点で個人アカウントを使って検証した実体験です。仕様は変更される可能性があるため、最新の挙動は公式ドキュメントでご確認ください。
