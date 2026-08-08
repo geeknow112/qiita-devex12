@@ -1,13 +1,15 @@
 ---
-title: 「AWSアカウント全体を1枚の構成図に」は幻想だった ― IaCジェネレーター×Infrastructure Composerで1819→451リソースを可視化して分かった5つの罠
+title: >-
+  「AWSアカウント全体を1枚の構成図に」は幻想だった ― IaCジェネレーター×Infrastructure
+  Composerで1819→451リソースを可視化して分かった5つの罠
 tags:
   - AWS
   - CloudFormation
   - IaC
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-08-08T22:33:45+09:00'
+id: 9cf35726babe77532b39
 organization_url_name: null
 slide: false
 ignorePublish: false
