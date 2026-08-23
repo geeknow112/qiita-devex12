@@ -4,11 +4,11 @@ tags:
   - AWS
   - Security
   - Athena
-  - WAF
+  - waf
   - Python
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-08-23T12:11:41+09:00'
+id: c96f2ec9508c2c85e765
 organization_url_name: null
 slide: false
 ignorePublish: false
