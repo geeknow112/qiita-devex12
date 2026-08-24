@@ -1,5 +1,5 @@
 ---
-title: "Kiro CLIをtmuxで並列運用したら「AI監視員」から「AI管制官」になれた話"
+title: Kiro CLIをtmuxで並列運用したら「AI監視員」から「AI管制官」になれた話
 tags:
   - Kiro
   - tmux
@@ -7,11 +7,13 @@ tags:
   - AI
   - 開発効率化
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-08-25T00:48:22+09:00'
+id: 95cd51554f474ebbc413
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
