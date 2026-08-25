@@ -2,12 +2,12 @@
 title: 個人開発の記事公開パイプラインでコミットの18%が「消すため」だった ― 2リポジトリ・PR39本を棚卸しして分かったこと
 tags:
   - GitHub
-  - セキュリティ
+  - Security
   - ClaudeCode
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-08-26T00:13:43+09:00'
+id: c170959137875aa6c9ab
 organization_url_name: null
 slide: false
 ignorePublish: false
