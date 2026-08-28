@@ -1,17 +1,19 @@
 ---
-title: AIレビューが構造的に見落とすセキュリティ4カテゴリ ──「AIが問題ないと言った」を診断者が信用しない理由（OWASP Top 10:2025対応）
+title: 'AIレビューが構造的に見落とすセキュリティ4カテゴリ ──「AIが問題ないと言った」を診断者が信用しない理由（OWASP Top 10:2025対応）'
 tags:
-  - セキュリティ
+  - Security
   - AI
   - コードレビュー
-  - OWASP
+  - owasp
   - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-08-29T04:05:35+09:00'
+id: 270d1bc93c9ccb7fc742
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
