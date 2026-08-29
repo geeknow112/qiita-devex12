@@ -231,3 +231,9 @@ Kiroのチャット欄上部のトグルで「Autopilot」をONにする
 | Hooks | 自動lint等 |
 
 設定ファイルをコピペして、Autopilot ONにするだけで使えます。
+
+## 付録：関連コースについて
+
+本記事のようなKiro活用のノウハウを、Udemyコースとして体系的にまとめています。
+
+- [Kiro完全自動化マスター講座 〜開発を効率化する実践テクニック〜](https://www.udemy.com/course/kiro-ai10/)（¥4,800）
