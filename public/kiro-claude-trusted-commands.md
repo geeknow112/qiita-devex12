@@ -591,3 +591,9 @@ claude /permissions
 ## 関連記事
 
 - [【コピペOK】Kiroを「完全オート」で動かす設定ファイル集](https://qiita.com/geeknow112/items/3cb6df52d1b3ce963756)
+
+## 付録：関連コースについて
+
+本記事のようなKiro活用のノウハウを、Udemyコースとして体系的にまとめています。
+
+- [Kiro完全自動化マスター講座 〜開発を効率化する実践テクニック〜](https://www.udemy.com/course/kiro-ai10/)（¥4,800）
