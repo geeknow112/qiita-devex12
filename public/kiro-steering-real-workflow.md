@@ -7,11 +7,13 @@ tags:
   - プロンプトエンジニアリング
   - Kiro
 private: false
-updated_at: '2026-06-17T21:47:53+09:00'
+updated_at: '2026-08-30T02:01:45+09:00'
 id: b05a5fca16c53c086657
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## この記事でできること
