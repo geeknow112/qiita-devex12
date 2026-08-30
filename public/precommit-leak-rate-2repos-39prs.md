@@ -116,6 +116,12 @@ A. ならないと考えている。今回の18.2%という数字は、下書き
 - ワークフローファイルの有無から逆算すると、今回のAIレビューはCI常駐型ではなくローカル実行だったと考えられる。個人規模のリポジトリでは、CIに常駐させるコストに見合わず、ローカルレビュー＋パターンマッチ型スキャナの併用が現実的な落としどころだった
 - 「AIレビューで何かを直した」という体感は誰しもあると思うが、実際に数えてみるとコミット単位で2割弱という、体感より高めの数字が出た。定量化すると次に何を強化すべきか（今回で言えば固有名詞の混入を減らすテンプレート化）が見えてくる
 
+## 関連記事
+
+今回棚卸しした2リポジトリは、`increments/qiita-cli`のGitHub Actionsでpush時に自動公開する構成です。同じ「push→自動投稿」の仕組みを別実装で組んだ例を以下にまとめています。
+
+- [Github Actionsを使ってGithubにpushしたらQiitaに自動投稿する方法](https://hack-note.com/tools/github-actions-workflow-qiita/)
+
 ## 参考リンク
 
 - [increments/qiita-cli - GitHub](https://github.com/increments/qiita-cli)
