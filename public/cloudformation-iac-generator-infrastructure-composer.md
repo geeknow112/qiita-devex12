@@ -113,6 +113,12 @@ Get-Content -Raw <file> | Set-Clipboard
 - Composerが役立つのは「1つの既存スタック（アプリ単位）の構成をざっと確認する」用途まで
 - 本格的な「矢印で繋がった関連図」が欲しい場合は、CloudFormationテンプレートの `Ref` / `GetAtt` を自前で解析してMermaid/Graphvizで描くほうが確実（今回は未実施、別アプローチとして今後の課題）
 
+## 関連記事
+
+既存リソースからテンプレートを生成する話とは逆に、テンプレートからスタックを作成・更新する基本操作（`aws cloudformation create-stack` / `update-stack`）は、こちらで手順をまとめています。
+
+- [【aws cli】cloudformationスタックの作成と更新](https://hack-note.com/tools/aws_cli_cloudformation/)
+
 ## 参考リンク
 
 - [AWS CloudFormation ユーザーガイド - 既存リソースからのIaC生成](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/generate-IaC.html)
