@@ -217,6 +217,13 @@ AWS DLTを使えば、以下のメリットがあります：
 
 本番リリース前の負荷テストや、定期的なパフォーマンス監視に活用してみてください。
 
+## 関連記事
+
+なお、本記事ではDLTソリューションの`create-stack`をそのまま使いましたが、CloudFormationスタックをCLIから自分で作成・更新する基本操作を別途整理しています。
+テンプレートを自前でカスタマイズしたい場合の参考にどうぞ。
+
+- [【aws cli】cloudformationスタックの作成と更新](https://hack-note.com/tools/aws_cli_cloudformation/)
+
 ## 参考リンク
 
 - [AWS Solutions - Distributed Load Testing on AWS](https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws/)
