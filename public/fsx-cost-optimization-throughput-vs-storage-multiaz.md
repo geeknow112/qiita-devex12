@@ -2,13 +2,13 @@
 title: Amazon FSx のコスト削減で、スループット使用率0.25%を削っても年9.5万円にしかならなかった話 ― 効いたのはSSD→HDD移行だった
 tags:
   - AWS
-  - FSx
+  - fsx
   - コスト削減
   - CloudWatch
   - Windows
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-08T00:59:20+09:00'
+id: 05a5962a33c7c46f9b60
 organization_url_name: null
 slide: false
 ignorePublish: false
