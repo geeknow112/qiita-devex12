@@ -2,13 +2,13 @@
 title: Route53ヘルスチェック+CloudWatchで5サーバーの死活監視を月額830円で組み、自作の自動復旧機能を7分後に消した話
 tags:
   - AWS
-  - Route53
+  - route53
   - CloudWatch
   - 死活監視
   - コスト削減
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-20T04:40:24+09:00'
+id: a8125df54813622d52af
 organization_url_name: null
 slide: false
 ignorePublish: false
