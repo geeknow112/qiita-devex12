@@ -7,11 +7,13 @@ tags:
   - 開発効率化
   - Kiro
 private: false
-updated_at: '2026-08-30T02:01:26+09:00'
+updated_at: '2026-09-21T18:57:14+09:00'
 id: 3cb6df52d1b3ce963756
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## 結論

@@ -7,11 +7,13 @@ tags:
   - Claude
   - Kiro
 private: false
-updated_at: '2026-06-07T17:39:38+09:00'
+updated_at: '2026-09-21T18:57:14+09:00'
 id: 197deb2b3143be03d457
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## 結論から
 
