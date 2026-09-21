@@ -1,17 +1,19 @@
 ---
-title: Git Bashから渡した「/path」が「C:/Program Files/Git/path」に化けて、本番に壊れた301リダイレクトを2本登録した
+title: 'Git Bashから渡した「/path」が「C:/Program Files/Git/path」に化けて、本番に壊れた301リダイレクトを2本登録した'
 tags:
   - Windows
-  - GitBash
-  - MSYS2
-  - bash
+  - gitbash
+  - msys2
+  - Bash
   - WordPress
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-09-22T03:35:06+09:00'
+id: bfac2d04f25e0e1b7581
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
