@@ -6,7 +6,7 @@ tags:
   - Playwright
   - ffmpeg
   - Marp
-private: false
+private: true
 updated_at: '2026-09-22T03:39:46+09:00'
 id: 9918336e0bc67e082bc4
 organization_url_name: null

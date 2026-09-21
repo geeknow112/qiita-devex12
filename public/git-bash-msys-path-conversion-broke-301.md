@@ -6,7 +6,7 @@ tags:
   - msys2
   - Bash
   - WordPress
-private: false
+private: true
 updated_at: '2026-09-22T03:35:06+09:00'
 id: bfac2d04f25e0e1b7581
 organization_url_name: null
