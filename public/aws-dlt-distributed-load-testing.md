@@ -1,5 +1,5 @@
 ---
-title: AWS DLT（Distributed Load Testing）で大規模負荷テストを簡単に実現する
+title: AWS DLTの料金と手順｜1時間のテストで約$3、デプロイは15分
 tags:
   - AWS
   - JMeter
@@ -15,13 +15,19 @@ ignorePublish: false
 ---
 ## はじめに
 
+## 結論
+
+負荷テストの環境を自前で組む必要はありません。AWSの公式ソリューション **Distributed Load Testing on AWS（DLT）** は、CloudFormationのテンプレート1本で立ち上がります。
+
+- **デプロイ: 約15分**（CloudFormation一発）
+- **実行コスト: 1時間のテストで約 \$3**
+- **月1回・1時間の運用なら 月額 約 \$15**
+- JMeterのスクリプトをそのまま流用できる
+- ECS Fargateで動くため、サーバーの用意は不要
+
+この記事では、仕組み、デプロイ、テスト実行、そしてコストの抑え方までをまとめます。
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tgTRH8Ai-Y8" frameborder="0" allowfullscreen></iframe>
-
-Webアプリケーションをリリースする前に「本番環境で何人のユーザーに耐えられるか」を把握しておきたい場面は多いです。しかし、大規模な負荷テストを自前で構築するのは、サーバーの準備やツールの設定など手間がかかります。
-
-**AWS Distributed Load Testing on AWS（DLT）** は、CloudFormationテンプレート一発でデプロイでき、Webコンソールから簡単に数千〜数万の同時接続をシミュレートできるAWSソリューションです。
-
-この記事では、DLTの仕組みから実際のデプロイ、テスト実行までを解説します。
 
 ## DLTの特徴
 
