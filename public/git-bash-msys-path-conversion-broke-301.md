@@ -7,8 +7,8 @@ tags:
   - Bash
   - WordPress
 private: true
-updated_at: '2026-09-22T03:35:06+09:00'
-id: bfac2d04f25e0e1b7581
+updated_at: ''
+id: null
 organization_url_name: null
 slide: false
 ignorePublish: false
