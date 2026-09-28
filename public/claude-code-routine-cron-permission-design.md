@@ -133,3 +133,9 @@ A. 今回は対象データ（Gmail検索クエリやNotion DBのID）がRoutine
 - [Automate work with routines - Claude Code Docs](https://code.claude.com/docs/en/routines)
 - [Run prompts on a schedule - Claude Code Docs](https://code.claude.com/docs/en/scheduled-tasks)
 - [Claude Code on the web - Overview](https://code.claude.com/docs/en/claude-code-on-the-web)
+
+## 付録：関連コースについて
+
+本記事のRoutineとcron設計を、権限設計から通しでUdemyコースにまとめています。
+
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=CCODE-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）

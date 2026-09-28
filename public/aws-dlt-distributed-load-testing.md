@@ -237,3 +237,9 @@ AWS DLTを使えば、以下のメリットがあります：
 - [AWS Solutions - Distributed Load Testing on AWS](https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws/)
 - [Implementation Guide](https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/solution-overview.html)
 - [GitHub Repository](https://github.com/aws-solutions/distributed-load-testing-on-aws)
+
+## 付録：関連コースについて
+
+本記事で扱ったDLTのデプロイから結果の読み方までを、Udemyコースとして体系的にまとめています。
+
+- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=DLT-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）

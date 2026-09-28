@@ -269,3 +269,9 @@ jobs:
 
 - [k6公式](https://k6.io/docs/)
 - [k6 GitHub](https://github.com/grafana/k6)
+
+## 付録：関連コースについて
+
+k6と同じ負荷テストを、AWSのマネージドな仕組みで行う方法をUdemyコースにまとめています。
+
+- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=DLT-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
