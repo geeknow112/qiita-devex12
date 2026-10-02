@@ -174,4 +174,4 @@ A. 条件に合わないだけで、エラーなく「何も起きない」状�
 
 SteeringとHooksを組み合わせた「完全オート」の進め方は、Udemyコースにまとめています。
 
-- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/)
+- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/?couponCode=19D10AE75DC10C4BD65C)（通常料金¥21,800、クーポン付きリンク）
