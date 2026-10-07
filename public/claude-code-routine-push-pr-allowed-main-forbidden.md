@@ -1,17 +1,21 @@
 ---
-title: Claude Code Routineに「PR作成は許可、mainへの直接pushは禁止」をどう実装するか ― プロンプトの禁止文言だけに頼らず、GitHub側で物理的に塞ぐ
+title: >-
+  Claude Code Routineに「PR作成は許可、mainへの直接pushは禁止」をどう実装するか ―
+  プロンプトの禁止文言だけに頼らず、GitHub側で物理的に塞ぐ
 tags:
   - ClaudeCode
   - GitHub
   - 自動化
-  - セキュリティ
+  - Security
   - 個人開発
 private: false
-updated_at: '2026-10-07T22:37:19+09:00'
+updated_at: '2026-10-07T22:44:08+09:00'
 id: 1239d546d472aaec6505
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR

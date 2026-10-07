@@ -4,14 +4,16 @@ tags:
   - Kiro
   - AI駆動開発
   - 自動化
-  - Hooks
+  - hooks
   - AWS
 private: false
-updated_at: '2026-10-03T03:00:39+09:00'
+updated_at: '2026-10-07T22:44:08+09:00'
 id: c85caa6d5f88c850ccf2
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
