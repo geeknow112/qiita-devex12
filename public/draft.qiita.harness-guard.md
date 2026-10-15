@@ -72,7 +72,7 @@ flowchart TD
 
 ```javascript
 if (!isReadOnly(input.tool_name || '') && lastAsst > lastUser) {
-  deny('…自分が文章を書いたあと、社長からの入力が来ていません。…');
+  deny('…自分が文章を書いたあと、ユーザーからの入力が来ていません。…');
 }
 ```
 
