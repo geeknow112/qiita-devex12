@@ -1,17 +1,21 @@
 ---
-title: CodePipeline V2でビルドを1つ足すと、月額が最大2.7倍になる ― 同じ1分が「アクション分」と「CodeBuild分」で2回数えられる（東京リージョンの単価で試算）
+title: >-
+  CodePipeline V2でビルドを1つ足すと、月額が最大2.7倍になる ―
+  同じ1分が「アクション分」と「CodeBuild分」で2回数えられる（東京リージョンの単価で試算）
 tags:
   - AWS
   - CodePipeline
   - CodeBuild
-  - CI/CD
+  - CICD
   - コスト削減
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-10-18T21:26:24+09:00'
+id: 4ebc1e20793d7fd7dcd2
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
