@@ -33,6 +33,16 @@ slide: false
 3. `deploy.sh` を実行する(完了まで455.44秒)
 4. Cognitoでユーザーを作成し、ログインして動作確認する
 
+全体の流れは次のとおりです。
+
+```mermaid
+flowchart LR
+  A[Playgroundでモデル確認] --> B[cdk.jsonを3点だけ変更]
+  B --> C[deploy.sh 455.44秒]
+  C --> D[Cognitoでユーザー作成と動作確認]
+  D --> E[destroy.shで削除]
+```
+
 ## つまずき1: Model accessのページが廃止されていた
 
 古い解説では「Bedrockの Model access でモデルを有効化する」とありますが、このページは**廃止されていました**。現在は、モデルを初めて呼び出した時点で自動的に有効化されます。Anthropicのモデルは、初回にユースケースの申請フォームの提出が必要でした。
@@ -49,6 +59,15 @@ slide: false
 | Claude Haiku 5.5 | AccessDeniedException |
 
 エラー文には「AWS Sales に連絡」といった内容が出ました。原因はアカウント側の制限と思われますが、特定できていません。**`cdk.json` の `modelIds` に新モデルを入れると、デプロイは通っても画面からは使えない**ので注意が必要です。
+
+結果を図にすると、次のようになります。
+
+```mermaid
+flowchart TD
+  M[cdk.jsonのmodelIds] --> S[Sonnet 4.6 / Haiku 4.5: 呼び出せた]
+  M --> N[Sonnet 5.5 / Haiku 5.5: AccessDenied]
+  N --> W[デプロイは通るが画面からは使えない]
+```
 
 ## 実測: トークン数(検証時)
 
