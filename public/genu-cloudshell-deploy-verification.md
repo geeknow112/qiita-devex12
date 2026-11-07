@@ -7,8 +7,8 @@ tags:
   - CloudShell
   - GenU
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-07T18:19:28+09:00'
+id: fef040d6573704317eac
 organization_url_name: null
 slide: false
 ---
