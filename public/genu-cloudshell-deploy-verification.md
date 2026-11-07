@@ -86,6 +86,8 @@ flowchart TD
 
 検証期間は11/3〜11/7(デプロイから削除まで)で、Cost Explorerのサービス別内訳(11/1〜11/6、UTC基準)は次のとおりです。
 
+![Cost Explorerの日別・サービス別グラフ(11/1〜11/7)。11/4に緑色のClaude Sonnet 4.6(Bedrock Edition)が出ている](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4444598/2ffa6f35-7df7-4a88-8581-ab35660c2e1a.jpeg)
+
 | サービス | 金額 |
 |---|---|
 | Claude Sonnet 4.6(Bedrock Edition) | $0.10(11/4のみ) |
