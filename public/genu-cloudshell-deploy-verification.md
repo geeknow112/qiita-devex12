@@ -7,7 +7,7 @@ tags:
   - CloudShell
   - GenU
 private: false
-updated_at: '2026-11-07T18:33:30+09:00'
+updated_at: '2026-11-07T20:14:31+09:00'
 id: fef040d6573704317eac
 organization_url_name: null
 slide: false
@@ -86,7 +86,7 @@ flowchart TD
 
 検証期間は11/3〜11/7(デプロイから削除まで)で、Cost Explorerのサービス別内訳(11/1〜11/6、UTC基準)は次のとおりです。
 
-![Cost Explorerの日別・サービス別グラフ(11/1〜11/7)。11/4に緑色のClaude Sonnet 4.6(Bedrock Edition)が出ている](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4444598/2ffa6f35-7df7-4a88-8581-ab35660c2e1a.jpeg)
+![Cost Explorerで「Claude Sonnet 4.6(Bedrock Edition)」だけに絞った日別コスト(11/1〜11/7)。合計$0.10、11/4のみ](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/4444598/f0d81b96-526c-4df9-bf79-58f4c62a4c2c.jpeg)
 
 | サービス | 金額 |
 |---|---|
