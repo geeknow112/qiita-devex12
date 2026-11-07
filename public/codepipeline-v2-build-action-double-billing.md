@@ -7,8 +7,8 @@ tags:
   - CI/CD
   - コスト削減
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-10-18T21:26:24+09:00'
+id: 4ebc1e20793d7fd7dcd2
 organization_url_name: null
 slide: false
 ignorePublish: false
