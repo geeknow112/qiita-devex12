@@ -3,7 +3,7 @@ title: AWS CodeBuildの$/vCPU・分は一定ではない ― x86のlarge超え�
 tags:
   - AWS
   - CodeBuild
-  - CI/CD
+  - CICD
   - コスト削減
   - 料金
 private: false
