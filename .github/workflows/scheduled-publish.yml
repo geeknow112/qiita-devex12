@@ -1,0 +1,64 @@
+# 公開待ち(queue/)の記事を、毎日12:00(JST)に、1本だけ公開する。
+# - queue/ に置いただけでは、公開されない。マージが「承認」、このワークフローが「公開日時の管理」。
+# - 公開の順番は、queue/ に追加された(コミットされた)順。
+# - GITHUB_TOKEN のpushでは、publish.yml が動かないため、移動と公開は、同じジョブの中で行う。
+name: Scheduled publish
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # 03:00 UTC = 12:00 JST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'true にすると、公開せず、選ばれる記事を表示するだけ'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: qiita-publish
+  cancel-in-progress: false
+
+jobs:
+  scheduled_publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: キューから、公開する記事を1本選ぶ
+        id: pick
+        run: |
+          next=""
+          oldest=""
+          for f in queue/*.md; do
+            [ -e "$f" ] || continue
+            [ "$(basename "$f")" = "README.md" ] && continue
+            t=$(git log --diff-filter=A --format=%ct -1 -- "$f")
+            if [ -z "$oldest" ] || [ "$t" -lt "$oldest" ]; then oldest="$t"; next="$f"; fi
+          done
+          if [ -z "$next" ]; then
+            echo "キューは空です。公開するものはありません。"
+          else
+            echo "公開する記事: $next"
+          fi
+          echo "next=$next" >> "$GITHUB_OUTPUT"
+
+      - name: 記事を public/ に移して、コミットする
+        if: steps.pick.outputs.next != '' && github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git mv "${{ steps.pick.outputs.next }}" public/
+          git commit -m "公開: ${{ steps.pick.outputs.next }} を public/ に移す(スケジュール公開)"
+          git push
+
+      - uses: increments/qiita-cli/actions/publish@v1
+        if: steps.pick.outputs.next != '' && github.event.inputs.dry_run != 'true'
+        with:
+          qiita-token: ${{ secrets.QIITA_TOKEN }}
+          root: "."
