@@ -2,15 +2,18 @@
 title: GenUをCloudShellだけで455秒デプロイして検証した ― Bedrockのモデル有効化の落とし穴と、実測コスト$0.10
 tags:
   - AWS
-  - Bedrock
+  - bedrock
   - CDK
   - CloudShell
   - GenU
 private: false
-updated_at: '2026-11-07T20:55:33+09:00'
+updated_at: '2026-11-16T21:32:54+09:00'
 id: fef040d6573704317eac
 organization_url_name: null
 slide: false
+ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## 結論
