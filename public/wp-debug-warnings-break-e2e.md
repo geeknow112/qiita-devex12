@@ -1,16 +1,21 @@
 ---
-title: WP_DEBUGの警告がE2Eを壊した ― フォームの値に警告文が混ざり、「登録」ボタンが「更新」に化けるまで(Playwright + wp-env + GitHub Actions)
+title: >-
+  WP_DEBUGの警告がE2Eを壊した ― フォームの値に警告文が混ざり、「登録」ボタンが「更新」に化けるまで(Playwright + wp-env +
+  GitHub Actions)
 tags:
   - WordPress
   - Playwright
-  - E2E
+  - e2e
   - GitHubActions
   - PHP
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-17T20:31:23+09:00'
+id: 2122fef9e6e5e9cdfe4c
 organization_url_name: null
 slide: false
+ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## 結論
