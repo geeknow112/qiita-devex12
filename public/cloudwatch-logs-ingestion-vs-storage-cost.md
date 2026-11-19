@@ -1,5 +1,7 @@
 ---
-title: CloudWatch Logsの保持期間を90日→30日に縮めても、浮くのは約8%だけだった ― 実際に効くのはログクラスの選択（東京リージョンの単価で検証）
+title: >-
+  CloudWatch Logsの保持期間を90日→30日に縮めても、浮くのは約8%だけだった ―
+  実際に効くのはログクラスの選択（東京リージョンの単価で検証）
 tags:
   - AWS
   - CloudWatch
@@ -7,11 +9,13 @@ tags:
   - コスト削減
   - 料金
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-19T20:12:29+09:00'
+id: 2acf41ae8e46cc94747c
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
