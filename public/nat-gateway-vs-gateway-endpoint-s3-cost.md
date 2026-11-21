@@ -1,14 +1,16 @@
 ---
-title: NAT GatewayはS3宛でもGB課金される ― Gateway Endpointで消えるのは処理料だけで、基本料金$0.062/時間は残る（東京リージョンの単価で検証）
+title: >-
+  NAT GatewayはS3宛でもGB課金される ― Gateway
+  Endpointで消えるのは処理料だけで、基本料金$0.062/時間は残る（東京リージョンの単価で検証）
 tags:
   - AWS
-  - NATGateway
-  - VPC
+  - natgateway
+  - vpc
   - コスト削減
-  - ネットワーク
+  - Network
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-21T19:41:24+09:00'
+id: 65505e5b92d9e2962f7b
 organization_url_name: null
 slide: false
 ignorePublish: false
