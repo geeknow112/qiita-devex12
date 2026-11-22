@@ -2,16 +2,18 @@
 title: EBS gp3の「最大20%安い」は本当か ― ボリュームサイズによっては実質7.8%まで下がる（東京リージョンの単価で検証）
 tags:
   - AWS
-  - EBS
+  - ebs
   - コスト削減
   - 料金
   - ストレージ
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-22T19:47:00+09:00'
+id: f072efe3d6b993938977
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## TL;DR
