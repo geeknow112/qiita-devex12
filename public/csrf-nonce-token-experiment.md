@@ -1,18 +1,19 @@
 ---
-title: >-
-  CSRFトークンが「ある」のに突破される ― 固定値・ひも付けなし・ひも付けあり を Node.js で3パターン実験する
+title: CSRFトークンが「ある」のに突破される ― 固定値・ひも付けなし・ひも付けあり を Node.js で3パターン実験する
 tags:
-  - CSRF
-  - セキュリティ
+  - csrf
+  - Security
   - 情報処理安全確保支援士
   - WordPress
-  - Nodejs
+  - Node.js
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-27T08:40:24+09:00'
+id: 5ec270f7a6d21929721b
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## はじめに
