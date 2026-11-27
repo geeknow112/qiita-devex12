@@ -7,7 +7,7 @@ tags:
   - WordPress
   - Node.js
 private: false
-updated_at: '2026-11-27T08:40:24+09:00'
+updated_at: '2026-11-28T00:55:02+09:00'
 id: 5ec270f7a6d21929721b
 organization_url_name: null
 slide: false
