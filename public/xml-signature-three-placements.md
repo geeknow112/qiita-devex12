@@ -1,18 +1,19 @@
 ---
-title: >-
-  XML署名の「置き方」3種類(Enveloped / Enveloping / Detached)を xmlsec1 で署名・検証・改ざんして比べる
+title: XML署名の「置き方」3種類(Enveloped / Enveloping / Detached)を xmlsec1 で署名・検証・改ざんして比べる
 tags:
   - XML
-  - セキュリティ
+  - Security
   - 情報処理安全確保支援士
   - xmlsec1
   - 電子署名
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-11-27T13:40:42+09:00'
+id: 100c3e01aced378ca1f2
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## はじめに
