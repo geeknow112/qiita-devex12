@@ -7,7 +7,7 @@ tags:
   - 負荷テスト
   - Fargate
 private: false
-updated_at: '2026-09-21T18:57:14+09:00'
+updated_at: '2026-09-26T13:41:37+09:00'
 id: 1ea4e0031203d605e341
 organization_url_name: null
 slide: false
@@ -242,4 +242,4 @@ AWS DLTを使えば、以下のメリットがあります：
 
 本記事で扱ったDLTのデプロイから結果の読み方までを、Udemyコースとして体系的にまとめています。
 
-- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=DLT-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
+- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=4646F891AB4410A5B556)（クーポン適用で¥1,500、2026年12月29日まで）
