@@ -7,7 +7,7 @@ tags:
   - コピペ
   - k6
 private: false
-updated_at: '2026-06-09T22:48:13+09:00'
+updated_at: '2026-09-26T13:41:37+09:00'
 id: 9db39b938712182ed613
 organization_url_name: null
 slide: false
@@ -274,4 +274,4 @@ jobs:
 
 k6と同じ負荷テストを、AWSのマネージドな仕組みで行う方法をUdemyコースにまとめています。
 
-- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=DLT-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
+- [AWS 負荷テスト実践講座 ― DLTで数千同時接続の負荷をかける](https://www.udemy.com/course/aws-dlt15/?couponCode=4646F891AB4410A5B556)（クーポン適用で¥1,500、2026年12月29日まで）

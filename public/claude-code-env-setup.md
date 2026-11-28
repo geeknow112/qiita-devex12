@@ -7,7 +7,7 @@ tags:
   - Claude
   - ClaudeCode
 private: false
-updated_at: '2026-06-28T00:34:33+09:00'
+updated_at: '2026-09-26T13:41:37+09:00'
 id: 8f8d2238d3600f0413c9
 organization_url_name: null
 slide: false
@@ -246,4 +246,4 @@ Claude Code CLI環境を快適にするポイント：
 
 本記事の設定を含む無人運用の組み方を、Udemyコースとして体系的にまとめています。
 
-- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=CCODE-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=590E396B748FACC37C92)（クーポン適用で¥1,500、2026年12月29日まで）

@@ -7,7 +7,7 @@ tags:
   - プロンプトエンジニアリング
   - Kiro
 private: false
-updated_at: '2026-08-30T02:01:45+09:00'
+updated_at: '2026-10-07T22:34:19+09:00'
 id: b05a5fca16c53c086657
 organization_url_name: null
 slide: false
@@ -287,4 +287,4 @@ Kiro Steeringの設定ポイントは以下の3点です。
 
 本記事のようなKiro活用のノウハウを、Udemyコースとして体系的にまとめています。
 
-- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/?couponCode=19D10AE75DC10C4BD65C)（通常料金¥21,800、クーポン付きリンク）
+- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/?couponCode=DF96D5A4EB9A27A214B2)（通常料金¥21,800、クーポン適用で¥1,500、2026年12月29日まで）
