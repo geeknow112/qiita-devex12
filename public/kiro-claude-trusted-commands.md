@@ -598,5 +598,5 @@ claude /permissions
 
 本記事のようなKiro活用のノウハウを、Udemyコースとして体系的にまとめています。
 
-- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/?couponCode=DF96D5A4EB9A27A214B2)（通常料金¥21,800、クーポン適用で¥1,500、2026年12月29日まで）
-- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=590E396B748FACC37C92)（クーポン適用で¥1,500、2026年12月29日まで）
+- [Kiro入門｜AIエージェント型IDEで学ぶAI駆動開発・自動化の実践講座](https://www.udemy.com/course/kiro-ai10/?couponCode=19D10AE75DC10C4BD65C)（通常料金¥21,800、クーポン付きリンク）
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=CCODE-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
