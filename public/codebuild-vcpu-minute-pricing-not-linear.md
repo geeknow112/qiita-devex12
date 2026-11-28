@@ -157,4 +157,4 @@ A. 保証されない。AWSの価格は変更されるため、本記事の数�
 
 ---
 
-CI/CDのコスト構造を手を動かして確認する一連の内容は、Udemyの[実践！AWS CI/CDパイプライン構築マスター講座](https://www.udemy.com/course/aws-cicd/)でも扱っています。
+CI/CDのコスト構造を手を動かして確認する一連の内容は、Udemyの[実践！AWS CI/CDパイプライン構築マスター講座](https://www.udemy.com/course/aws-cicd/?couponCode=F905B9A770526C1997DD)でも扱っています。

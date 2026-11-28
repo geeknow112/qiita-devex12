@@ -143,4 +143,4 @@ A. 言えません。公式でも、実行一覧の緑のステータスは「�
 
 用途ごとに権限を絞るRoutineの設計を、Udemyコースにまとめています。
 
-- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/)
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=590E396B748FACC37C92)

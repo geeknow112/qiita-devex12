@@ -138,4 +138,4 @@ A. 今回は対象データ（Gmail検索クエリやNotion DBのID）がRoutine
 
 本記事のRoutineとcron設計を、権限設計から通しでUdemyコースにまとめています。
 
-- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=CCODE-LAUNCH-2609)（公開記念につき無料・先着100名／2026年10月26日まで）
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=590E396B748FACC37C92)（クーポン適用で¥1,500、2026年12月29日まで）

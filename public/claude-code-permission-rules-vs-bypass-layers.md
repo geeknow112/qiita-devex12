@@ -139,4 +139,4 @@ A. 人間が横にいる作業は `acceptEdits`（編集は自動、シェルは
 
 許可リスト、Hooks、Routineを使った無人運用の設計は、Udemyコースにまとめています。
 
-- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/)
+- [Claude Code 無人運用マスター講座 ― 承認ゼロで夜間バッチを走らせる](https://www.udemy.com/course/claude-code-v/?couponCode=590E396B748FACC37C92)

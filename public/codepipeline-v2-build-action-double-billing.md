@@ -189,4 +189,4 @@ A. V2は1分単位で切り上げです。たとえば、デプロイが1分10�
 ---
 
 GitHubからS3へのパイプラインを、実際の画面で1ステップずつ作る講座を公開しています。
-[実践！AWS CI/CDパイプライン構築マスター講座（Udemy）](https://www.udemy.com/course/aws-cicd/)
+[実践！AWS CI/CDパイプライン構築マスター講座（Udemy）](https://www.udemy.com/course/aws-cicd/?couponCode=F905B9A770526C1997DD)
