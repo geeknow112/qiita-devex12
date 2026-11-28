@@ -7,7 +7,7 @@ tags:
   - コスト削減
   - 料金
 private: false
-updated_at: '2026-11-18T20:13:04+09:00'
+updated_at: '2026-11-28T18:19:36+09:00'
 id: a6fbb723b6b67431a27d
 organization_url_name: null
 slide: false
